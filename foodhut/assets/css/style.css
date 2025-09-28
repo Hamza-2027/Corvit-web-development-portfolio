@@ -1,0 +1,330 @@
+:root {
+}
+/***** Navbar-Section *****/
+.header-bg-img {
+  background-image: linear-gradient(200deg, #feeddd, #fdfdfd);
+}
+.nav-link {
+  font-family: "Inter";
+  color: var(--bs-navbar-color);
+  padding-left: 3rem !important;
+}
+.navbar-margin {
+  padding-left: 24rem;
+}
+.navbar-btn {
+  font-family: "Inter" !important;
+  font-size: 0.9rem !important;
+  font-weight: 300 !important;
+  background-color: #f54748;
+  color: #fff;
+  border: #f54748;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+}
+/***** End Navbar-Section *****/
+
+/***** Header-Section *****/
+.down-arrow {
+  position: absolute;
+  top: -5%;
+  left: 30%;
+}
+.decore {
+  position: absolute;
+  top: 44%;
+  left: 47%;
+}
+.orange {
+  position: absolute;
+  top: 20%;
+  left: 76%;
+}
+.slider {
+  position: absolute;
+  top: 104%;
+  left: 4%;
+}
+.mint {
+  position: absolute;
+  top: 72%;
+  right: -99%;
+}
+.header-padding {
+  padding-left: 3.5rem !important;
+  padding-top: 5rem;
+}
+.header-heading {
+  font-family: "Inter";
+  font-size: 4rem;
+  font-weight: 600;
+}
+.header-para {
+  font-family: "Inter";
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #595151;
+  letter-spacing: 0.1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.h-red-color {
+  color: #f54748;
+}
+.h-yellow-color {
+  color: #fdc55e;
+}
+.header-subheading {
+  font-family: "Inter";
+  font-size: 0.9rem;
+  font-weight: 400;
+  background-color: #fee5e5;
+  color: #191919;
+  width: 9.5rem;
+  padding-left: 0.3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.input-field {
+  font-family: "Inter";
+  font-size: 0.9rem !important;
+  width: 24rem !important;
+  padding-left: 2.5rem !important;
+}
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 29%;
+}
+.search-icon1 {
+  font-family: "Inter";
+  font-weight: 900 !important;
+  font-size: 1.1rem;
+}
+.search-icon {
+  color: #fff;
+  background-color: #fdc55e;
+  border-radius: 50%;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-left: 10rem !important;
+}
+/***** End Header-Section *****/
+
+/***** Section-2 *****/
+.sec2-heading {
+  font-family: "Inter";
+  font-size: 4rem;
+  font-weight: 600;
+  padding-top: 4rem;
+}
+.sec2-subheading {
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 400;
+  color: #595151;
+  padding-top: 0.8rem;
+  padding-bottom: 4rem;
+}
+
+.offer-bg-color {
+  background-image: linear-gradient(to bottom, #ffffff, #fee6e6);
+}
+.review-img-1 {
+  position: absolute;
+  left: 20%;
+}
+.review-img-2 {
+  position: absolute;
+  left: 30%;
+}
+.review-img-3 {
+  position: absolute;
+  left: 40%;
+}
+.rating-padding {
+  padding-left: 6rem;
+}
+.offer-heading {
+  font-family: "Inter";
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #f54748;
+  padding-top: 2.2rem;
+  text-align: center;
+}
+.offer-subheading {
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 500;
+  color: #595151;
+  padding-top: 1rem;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.offer-btn {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+}
+.offer-padding2 {
+  margin-left: 3rem;
+}
+.rosemary {
+  position: absolute;
+  left: 92.5%;
+}
+/***** End Section-2 *****/
+
+/***** Section-3 *****/
+.vector {
+  position: absolute;
+  top: 19%;
+  left: 41%;
+}
+.service-img {
+  height: 55rem !important;
+}
+
+.sec3-heading {
+  font-family: "Inter";
+  font-size: 2.7rem;
+  font-weight: 600;
+  padding-top: 13rem;
+}
+.sec3-subheading {
+  font-family: "Inter";
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #595151;
+  padding-top: 0.8rem;
+  padding-bottom: 2rem;
+}
+.service-padding {
+  padding-right: 10.2rem;
+}
+.service-padding-2 {
+  padding-right: 9rem;
+}
+.service-padding-3 {
+  padding-right: 11rem;
+}
+/***** End Section-3 *****/
+
+/***** Section-4 *****/
+.sec4-heading {
+  font-family: "Inter";
+  font-size: 2.7rem;
+  font-weight: 600;
+  padding-bottom: 2rem;
+}
+.sec4-subheading {
+  font-family: "Inter";
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #595151;
+  padding-top: 0.8rem;
+  padding-bottom: 2rem;
+}
+.navbar-menu-btn {
+  font-family: "Inter" !important;
+  font-size: 0.9rem !important;
+  font-weight: 300 !important;
+  background-color: transparent;
+  color: #191919;
+  border: solid 0.09rem #191919;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+}
+.navbar-menu-btn:hover {
+  font-family: "Inter" !important;
+  font-size: 0.9rem !important;
+  font-weight: 300 !important;
+  background-color: #f54748;
+  color: #fff;
+  border: #f54748;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+}
+.menu-margin-top {
+  margin-top: 7rem !important;
+}
+/***** End Section-4 *****/
+
+/***** Section-5 *****/
+.sec5-bg-img {
+  background-image: url("../images/mobile/mobilSec.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sec5-padding {
+  padding-left: 3.5rem !important;
+  padding-top: 5rem;
+  padding-bottom: 6rem;
+}
+.lineing {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  z-index: -1;
+}
+.vector-2 {
+  position: absolute;
+  top: 75%;
+  left: 70%;
+}
+.mint {
+  position: absolute;
+  top: 90%;
+  left: 40%;
+}
+/***** End Section-5 *****/
+
+.f-padding {
+  padding-top: 15rem;
+  padding-left: 3.5rem;
+}
+.f-subheading {
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 400;
+  color: #191919;
+}
+.f-icon {
+  color: #fdc55e;
+  font-size: 1.2rem;
+}
+.f-head {
+  font-family: "Inter";
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #f54748;
+}
+.f-item {
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 400;
+  color: #191919;
+}
+.f-form {
+  width: 15rem !important;
+}
+.f-copyright {
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 400;
+  color: #191919;
+  padding-left: 30rem;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}

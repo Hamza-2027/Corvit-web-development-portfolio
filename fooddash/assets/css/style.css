@@ -1,0 +1,185 @@
+:root {
+  --bs-primary: #ff6000;
+  --bs-primaryclick: #c04900;
+}
+.btn-primary {
+  background-color: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--bs-primaryclick) !important;
+  border-color: var(--bs-primaryclick) !important ;
+}
+.btn-outline-primary {
+  border-color: var(--bs-primary);
+  color: var(--bs-primary);
+}
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+.header-bg-color {
+  background-color: #ffefe6;
+}
+.header-heading {
+  font-family: "Lexend";
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.h-color {
+  color: #ff6000;
+}
+.header-btn-1 {
+  font-family: "Lexend";
+  width: 12rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.header-btn-2 {
+  font-family: "Lexend";
+  width: 12rem;
+}
+
+.header-img {
+  padding-top: 6rem;
+}
+.box-shadow {
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.border-radius {
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.h-chunck {
+  font-family: "Lexend";
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #2a2a2a;
+}
+.sub-h-chunk {
+  font-family: "Lexend";
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #939393;
+}
+
+.dish-sectoion-left {
+  font-family: "Lexend";
+  font-weight: 500;
+  font-size: 3rem;
+}
+.dish-sectoion-right {
+  font-family: "Lexend";
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #939393;
+}
+.dish-name {
+  font-family: "Lexend";
+  font-weight: 400;
+  font-size: 1.7rem;
+}
+.dish-order {
+  font-family: "Lexend";
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--bs-primary);
+}
+.city-bg-color {
+  background-color: #ffefe6;
+}
+.cities-names {
+  font-family: "Lexend";
+  font-weight: 400;
+  font-size: 2rem;
+}
+.menu-head-padding {
+  padding-left: 3rem;
+  padding-bottom: 9rem;
+  padding-top: 9rem;
+}
+.menu-section-left {
+  font-family: "Lexend";
+  font-weight: 500;
+  font-size: 3rem;
+}
+.menu-section-right {
+  font-family: "Lexend";
+  font-weight: 400;
+  font-size: 1rem;
+  color: #939393;
+  padding-top: 1rem;
+}
+.menu-btn {
+  font-family: "Lexend";
+  font-weight: 400;
+  background-color: #ff7b2b;
+}
+.menu-bg-color {
+  background-color: #ffefe6;
+}
+.menu-padding {
+  padding-left: 10rem;
+  font-family: "Lexend";
+  font-weight: 400;
+}
+.menu-heading {
+  font-family: "Lexend";
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.menu-price {
+  font-family: "Lexend";
+  font-weight: 400;
+  font-size: 2rem;
+}
+.menu-left-padding {
+  padding-left: 12rem;
+}
+.menu-layer2-top-padding {
+  padding-top: 9rem;
+}
+.footer-bg-color {
+  background-color: #ffefe6;
+}
+.copyrights {
+  font-family: "Lexend";
+  font-weight: 400;
+  font-size: 1rem;
+  color: #939393;
+  padding-top: 1rem;
+}
+.follow {
+  font-family: "Lexend";
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #ff6000;
+  padding-top: 1rem;
+}
+.footer-section-heading {
+  font-family: "Lexend";
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #ff6000;
+}
+.footer-items {
+  font-family: "Lexend";
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #939393;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 992px) {
+  .header-heading {
+    font-size: 2.5rem;
+  }
+}
