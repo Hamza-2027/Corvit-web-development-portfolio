@@ -1,0 +1,260 @@
+:root {
+  --bs-primary: #ffffff;
+}
+.bg-color {
+  background: linear-gradient(to right, #ffcda2, #ffaf68);
+}
+/* .header-bg-img {
+  background-image: url(../images/header-bg-image-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.review {
+  width: 15rem;
+}
+.h-subheading {
+  font-family: "Poppins";
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 0.9;
+  padding-top: 1.5rem;
+}
+.h-heading {
+  font-family: "Poppins";
+  font-size: 4rem;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 1.3;
+  padding-bottom: 1.5rem;
+}
+
+.btn-explore {
+  font-family: "Poppins";
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  color: #ff7a04;
+}
+.btn-explore:hover:focus {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  color: #ff7a04;
+}
+.play-btn {
+  width: 4rem;
+}
+.how-to {
+  font-family: "Poppins";
+  color: var(--bs-primary);
+  text-align: center;
+  font-size: 1rem;
+}
+/* //////////////////? Section - 2 */
+
+.hot-items-heading {
+  font-family: "Poppins";
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--bs-primary);
+}
+.hot-items-subheading {
+  font-family: "Poppins";
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--bs-primary);
+  padding-bottom: 8rem;
+}
+.left-arrow-padding {
+  padding-top: 9rem;
+  margin-left: 2rem;
+}
+.item1 {
+  margin-left: 6rem;
+}
+.items-bg-img {
+  background-image: url("../images/hot-items/background.png");
+  background-repeat: no-repeat;
+  height: 30rem;
+}
+.heart-icon {
+  padding-top: 2.5rem;
+  padding-right: 5.5rem;
+}
+.item-name {
+  font-family: "Poppins";
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--bs-primary);
+  /* padding-top: 2rem; */
+  text-align: center;
+  padding-left: 3rem;
+}
+.item-price {
+  font-family: "Poppins";
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--bs-primary);
+  padding-left: 4rem;
+  padding-top: 4rem;
+}
+.cart-img {
+  padding-top: 4rem;
+  padding-left: 5.5rem;
+}
+.arrow-icon {
+  font-family: "Poppins";
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--bs-primary);
+  padding-top: 9rem;
+  padding-right: 5rem;
+}
+.item-top-padding {
+  padding-top: 8rem;
+}
+/* //////////////////? Section - 3 */
+.section-3-bg-color {
+  background-color: #ff8616;
+}
+.off-section {
+  padding-left: 8rem;
+}
+.section3-h1 {
+  font-family: "Poppins";
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--bs-primary);
+}
+.section3-h2 {
+  font-family: "Poppins";
+  font-size: 3rem;
+  font-weight: 500;
+  color: var(--bs-primary);
+}
+.section3-h3 {
+  font-family: "Poppins";
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--bs-primary);
+}
+.section3-btn {
+  font-family: "Poppins";
+  font-size: 1.5rem;
+  font-weight: 500;
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  color: #ff7a04;
+  width: 11rem;
+  margin-top: 1rem;
+}
+.section3-btn:hover:focus {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  color: #ff7a04;
+}
+/* //////////////////? Section - 4 */
+.section-4-img {
+  margin-top: -12rem;
+}
+/*!Media queries */
+@media (max-width: 1188px) {
+  .h-heading {
+    font-size: 3rem;
+  }
+  .h-subheading {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 1023px) {
+  .h-heading {
+    font-size: 2.7rem;
+  }
+  .h-subheading {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 991px) {
+  .review {
+    width: 15rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+  .h-subheading {
+    padding-bottom: 1rem;
+  }
+  .slide-right {
+    padding-left: 8rem;
+    color: #ff7a04;
+  }
+  .h-heading {
+    padding-bottom: 2rem;
+  }
+}
+@media (max-width: 919px) {
+  .h-heading {
+    font-size: 2.5rem;
+  }
+  .h-subheading {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 754px) {
+  .review {
+    width: 10rem;
+  }
+  .h-heading {
+    font-size: 2.2rem;
+  }
+  .h-subheading {
+    font-size: 1rem;
+  }
+  .btn-explore {
+    font-size: 0.9rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-right: 1.1rem;
+    padding-left: 1.1rem;
+  }
+  .play-btn {
+    width: 3.5rem;
+  }
+}
+@media (max-width: 647px) {
+  .review {
+    width: 9rem;
+  }
+  .h-heading {
+    font-size: 2rem;
+  }
+  .h-subheading {
+    font-size: 0.8rem;
+  }
+  .btn-explore {
+    font-size: 0.7rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .play-btn {
+    width: 3.5rem;
+  }
+}
+@media (max-width: 620px) {
+  .play-btn {
+    width: 3rem;
+  }
+  .how-to {
+    font-size: 0.8rem;
+  }
+}
