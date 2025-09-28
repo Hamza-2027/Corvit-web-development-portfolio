@@ -1,0 +1,63 @@
+.header-bg-color {
+  background-image: linear-gradient(240deg, #1d2948, #141d33, #0f1628, #050a16);
+}
+.header-bg-img {
+  background-image: url("../images/Solar\ System\ 02.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.navbar-style {
+  /* padding-right: 11rem !important; */
+  color: #ffffff !important;
+}
+.nav-universe {
+  font-size: 3rem;
+}
+.sun-style {
+  background: linear-gradient(to right, #ededed, #b6b6b6);
+  -webkit-background-clip: text; /* for Chrome, Safari */
+  -webkit-text-fill-color: transparent; /* makes text transparent so gradient shows */
+  background-clip: text; /* for Firefox (with prefix support) */
+  color: transparent;
+  font-size: 2rem; /* adjust as needed */
+  font-weight: bold;
+}
+.sun-desc {
+  background: linear-gradient(to right, #ededed, #b6b6b6);
+  -webkit-background-clip: text; /* for Chrome, Safari */
+  -webkit-text-fill-color: transparent; /* makes text transparent so gradient shows */
+  background-clip: text; /* for Firefox (with prefix support) */
+  color: transparent;
+  font-size: 1rem; /* adjust as needed */
+  font-weight: bold;
+}
+.sun-desc-name {
+  color: #bdc5e2;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.sun-desc-detail {
+  color: #ffffff;
+  font-size: 0.7rem;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 0.3rem;
+}
+
+.left-img-position {
+  position: relative;
+  left: -12rem;
+}
+.center-img-position {
+  position: relative;
+  top: 0rem;
+}
+.right-img-position {
+  position: relative;
+  left: 1rem;
+}
+button {
+  background-color: transparent;
+  border: 0;
+}
